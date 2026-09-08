@@ -1,0 +1,1858 @@
+{
+  "schemaVersion": 1,
+  "appVersion": "0.1.5",
+  "checks": [
+    {
+      "name": "optimization-lab-lossless-quick.pdf: page count",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: document metadata",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: catalog inventory",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: bookmarks",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: bookmark destinations",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: page 1 selectable text",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: page 1 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: page 1 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: page 1 geometry",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: page 1 annotations",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: link appearance",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: internal link destination",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: page 1 image count",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: image 1/1 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: image 1/1 exact pixels",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: image 1/2 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: image 1/2 exact pixels",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: page 2 selectable text",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: page 2 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: page 2 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: page 2 geometry",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: page 2 annotations",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: page 2 image count",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: image 2/1 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: image 2/1 exact pixels",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: image 2/2 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: image 2/2 exact pixels",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: independently rendered all pages",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: exact Poppler pixels",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: exact Poppler pixels",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-quick.pdf: reported byte count matches disk",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: page count",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: document metadata",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: catalog inventory",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: bookmarks",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: bookmark destinations",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: page 1 selectable text",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: page 1 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: page 1 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: page 1 geometry",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: page 1 annotations",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: link appearance",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: internal link destination",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: page 1 image count",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: image 1/1 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: image 1/1 exact pixels",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: image 1/2 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: image 1/2 exact pixels",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: page 2 selectable text",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: page 2 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: page 2 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: page 2 geometry",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: page 2 annotations",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: page 2 image count",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: image 2/1 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: image 2/1 exact pixels",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: image 2/2 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: image 2/2 exact pixels",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: independently rendered all pages",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: exact Poppler pixels",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: exact Poppler pixels",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-lossless-thorough.pdf: reported byte count matches disk",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: page count",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: document metadata",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: catalog inventory",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: bookmarks",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: bookmark destinations",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: page 1 selectable text",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: page 1 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: page 1 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: page 1 geometry",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: page 1 annotations",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: link appearance",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: internal link destination",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: page 1 image count",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: image 1/1 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: image 1/1 PSNR above 25 dB on this fixture",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: image 1/2 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: image 1/2 PSNR above 25 dB on this fixture",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: page 2 selectable text",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: page 2 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: page 2 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: page 2 geometry",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: page 2 annotations",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: page 2 image count",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: image 2/1 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: image 2/1 PSNR above 25 dB on this fixture",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: image 2/2 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: image 2/2 PSNR above 25 dB on this fixture",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: independently rendered all pages",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-high.pdf: reported byte count matches disk",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: page count",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: document metadata",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: catalog inventory",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: bookmarks",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: bookmark destinations",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: page 1 selectable text",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: page 1 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: page 1 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: page 1 geometry",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: page 1 annotations",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: link appearance",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: internal link destination",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: page 1 image count",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: image 1/1 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: image 1/1 PSNR above 25 dB on this fixture",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: image 1/2 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: image 1/2 PSNR above 25 dB on this fixture",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: page 2 selectable text",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: page 2 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: page 2 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: page 2 geometry",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: page 2 annotations",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: page 2 image count",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: image 2/1 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: image 2/1 PSNR above 25 dB on this fixture",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: image 2/2 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: image 2/2 PSNR above 25 dB on this fixture",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: independently rendered all pages",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-balanced.pdf: reported byte count matches disk",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: page count",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: document metadata",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: catalog inventory",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: bookmarks",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: bookmark destinations",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: page 1 selectable text",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: page 1 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: page 1 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: page 1 geometry",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: page 1 annotations",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: link appearance",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: internal link destination",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: page 1 image count",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: image 1/1 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: image 1/1 PSNR above 25 dB on this fixture",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: image 1/2 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: image 1/2 PSNR above 25 dB on this fixture",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: page 2 selectable text",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: page 2 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: page 2 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: page 2 geometry",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: page 2 annotations",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: page 2 image count",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: image 2/1 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: image 2/1 PSNR above 25 dB on this fixture",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: image 2/2 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: image 2/2 PSNR above 25 dB on this fixture",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: independently rendered all pages",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab-images-small.pdf: reported byte count matches disk",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-quick.pdf: page count",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-quick.pdf: document metadata",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-quick.pdf: catalog inventory",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-quick.pdf: bookmarks",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-quick.pdf: bookmark destinations",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-quick.pdf: page 1 selectable text",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-quick.pdf: page 1 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-quick.pdf: page 1 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-quick.pdf: page 1 geometry",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-quick.pdf: page 1 annotations",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-quick.pdf: page 1 image count",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-quick.pdf: image 1/1 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-quick.pdf: image 1/1 exact pixels",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-quick.pdf: independently rendered all pages",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-quick.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-quick.pdf: exact Poppler pixels",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-quick.pdf: reported byte count matches disk",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-thorough.pdf: page count",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-thorough.pdf: document metadata",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-thorough.pdf: catalog inventory",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-thorough.pdf: bookmarks",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-thorough.pdf: bookmark destinations",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-thorough.pdf: page 1 selectable text",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-thorough.pdf: page 1 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-thorough.pdf: page 1 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-thorough.pdf: page 1 geometry",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-thorough.pdf: page 1 annotations",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-thorough.pdf: page 1 image count",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-thorough.pdf: image 1/1 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-thorough.pdf: image 1/1 exact pixels",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-thorough.pdf: independently rendered all pages",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-thorough.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-thorough.pdf: exact Poppler pixels",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-lossless-thorough.pdf: reported byte count matches disk",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-high.pdf: page count",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-high.pdf: document metadata",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-high.pdf: catalog inventory",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-high.pdf: bookmarks",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-high.pdf: bookmark destinations",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-high.pdf: page 1 selectable text",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-high.pdf: page 1 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-high.pdf: page 1 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-high.pdf: page 1 geometry",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-high.pdf: page 1 annotations",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-high.pdf: page 1 image count",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-high.pdf: image 1/1 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-high.pdf: image 1/1 PSNR above 25 dB on this fixture",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-high.pdf: independently rendered all pages",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-high.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-high.pdf: reported byte count matches disk",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-balanced.pdf: page count",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-balanced.pdf: document metadata",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-balanced.pdf: catalog inventory",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-balanced.pdf: bookmarks",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-balanced.pdf: bookmark destinations",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-balanced.pdf: page 1 selectable text",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-balanced.pdf: page 1 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-balanced.pdf: page 1 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-balanced.pdf: page 1 geometry",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-balanced.pdf: page 1 annotations",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-balanced.pdf: page 1 image count",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-balanced.pdf: image 1/1 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-balanced.pdf: image 1/1 PSNR above 25 dB on this fixture",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-balanced.pdf: independently rendered all pages",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-balanced.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-balanced.pdf: reported byte count matches disk",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-small.pdf: page count",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-small.pdf: document metadata",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-small.pdf: catalog inventory",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-small.pdf: bookmarks",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-small.pdf: bookmark destinations",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-small.pdf: page 1 selectable text",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-small.pdf: page 1 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-small.pdf: page 1 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-small.pdf: page 1 geometry",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-small.pdf: page 1 annotations",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-small.pdf: page 1 image count",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-small.pdf: image 1/1 pixel dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-small.pdf: image 1/1 PSNR above 25 dB on this fixture",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-small.pdf: independently rendered all pages",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-small.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray-images-small.pdf: reported byte count matches disk",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-quick.pdf: page count",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-quick.pdf: document metadata",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-quick.pdf: catalog inventory",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-quick.pdf: bookmarks",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-quick.pdf: bookmark destinations",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-quick.pdf: page 1 selectable text",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-quick.pdf: page 1 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-quick.pdf: page 1 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-quick.pdf: page 1 geometry",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-quick.pdf: page 1 annotations",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-quick.pdf: page 1 image count",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-quick.pdf: independently rendered all pages",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-quick.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-quick.pdf: exact Poppler pixels",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-quick.pdf: reported byte count matches disk",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-thorough.pdf: page count",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-thorough.pdf: document metadata",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-thorough.pdf: catalog inventory",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-thorough.pdf: bookmarks",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-thorough.pdf: bookmark destinations",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-thorough.pdf: page 1 selectable text",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-thorough.pdf: page 1 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-thorough.pdf: page 1 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-thorough.pdf: page 1 geometry",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-thorough.pdf: page 1 annotations",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-thorough.pdf: page 1 image count",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-thorough.pdf: independently rendered all pages",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-thorough.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-thorough.pdf: exact Poppler pixels",
+      "passed": true
+    },
+    {
+      "name": "blank-lossless-thorough.pdf: reported byte count matches disk",
+      "passed": true
+    },
+    {
+      "name": "blank-images-high.pdf: page count",
+      "passed": true
+    },
+    {
+      "name": "blank-images-high.pdf: document metadata",
+      "passed": true
+    },
+    {
+      "name": "blank-images-high.pdf: catalog inventory",
+      "passed": true
+    },
+    {
+      "name": "blank-images-high.pdf: bookmarks",
+      "passed": true
+    },
+    {
+      "name": "blank-images-high.pdf: bookmark destinations",
+      "passed": true
+    },
+    {
+      "name": "blank-images-high.pdf: page 1 selectable text",
+      "passed": true
+    },
+    {
+      "name": "blank-images-high.pdf: page 1 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "blank-images-high.pdf: page 1 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "blank-images-high.pdf: page 1 geometry",
+      "passed": true
+    },
+    {
+      "name": "blank-images-high.pdf: page 1 annotations",
+      "passed": true
+    },
+    {
+      "name": "blank-images-high.pdf: page 1 image count",
+      "passed": true
+    },
+    {
+      "name": "blank-images-high.pdf: independently rendered all pages",
+      "passed": true
+    },
+    {
+      "name": "blank-images-high.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "blank-images-high.pdf: reported byte count matches disk",
+      "passed": true
+    },
+    {
+      "name": "blank-images-balanced.pdf: page count",
+      "passed": true
+    },
+    {
+      "name": "blank-images-balanced.pdf: document metadata",
+      "passed": true
+    },
+    {
+      "name": "blank-images-balanced.pdf: catalog inventory",
+      "passed": true
+    },
+    {
+      "name": "blank-images-balanced.pdf: bookmarks",
+      "passed": true
+    },
+    {
+      "name": "blank-images-balanced.pdf: bookmark destinations",
+      "passed": true
+    },
+    {
+      "name": "blank-images-balanced.pdf: page 1 selectable text",
+      "passed": true
+    },
+    {
+      "name": "blank-images-balanced.pdf: page 1 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "blank-images-balanced.pdf: page 1 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "blank-images-balanced.pdf: page 1 geometry",
+      "passed": true
+    },
+    {
+      "name": "blank-images-balanced.pdf: page 1 annotations",
+      "passed": true
+    },
+    {
+      "name": "blank-images-balanced.pdf: page 1 image count",
+      "passed": true
+    },
+    {
+      "name": "blank-images-balanced.pdf: independently rendered all pages",
+      "passed": true
+    },
+    {
+      "name": "blank-images-balanced.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "blank-images-balanced.pdf: reported byte count matches disk",
+      "passed": true
+    },
+    {
+      "name": "blank-images-small.pdf: page count",
+      "passed": true
+    },
+    {
+      "name": "blank-images-small.pdf: document metadata",
+      "passed": true
+    },
+    {
+      "name": "blank-images-small.pdf: catalog inventory",
+      "passed": true
+    },
+    {
+      "name": "blank-images-small.pdf: bookmarks",
+      "passed": true
+    },
+    {
+      "name": "blank-images-small.pdf: bookmark destinations",
+      "passed": true
+    },
+    {
+      "name": "blank-images-small.pdf: page 1 selectable text",
+      "passed": true
+    },
+    {
+      "name": "blank-images-small.pdf: page 1 fonts and Unicode maps",
+      "passed": true
+    },
+    {
+      "name": "blank-images-small.pdf: page 1 vector/text operators unchanged",
+      "passed": true
+    },
+    {
+      "name": "blank-images-small.pdf: page 1 geometry",
+      "passed": true
+    },
+    {
+      "name": "blank-images-small.pdf: page 1 annotations",
+      "passed": true
+    },
+    {
+      "name": "blank-images-small.pdf: page 1 image count",
+      "passed": true
+    },
+    {
+      "name": "blank-images-small.pdf: independently rendered all pages",
+      "passed": true
+    },
+    {
+      "name": "blank-images-small.pdf: Poppler page dimensions",
+      "passed": true
+    },
+    {
+      "name": "blank-images-small.pdf: reported byte count matches disk",
+      "passed": true
+    },
+    {
+      "name": "optimization-lab.pdf: three image qualities produce distinct decreasing sizes",
+      "passed": true
+    },
+    {
+      "name": "optimization-gray.pdf: three image qualities produce distinct decreasing sizes",
+      "passed": true
+    }
+  ],
+  "measurements": [
+    {
+      "elapsedMs": 795,
+      "fixture": "optimization-lab.pdf",
+      "inputBytes": 1757758,
+      "output": "optimization-lab-lossless-quick.pdf",
+      "outputBytes": 1547838,
+      "settings": {
+        "arguments": [
+          "--object-streams=generate",
+          "--stream-data=compress",
+          "--remove-unreferenced-resources=no",
+          "--compression-level=6"
+        ],
+        "changedImageObjects": 0,
+        "downsample": false,
+        "engine": "qpdf 12.4.1",
+        "jpegQuality": null,
+        "losslessStructural": true,
+        "preset": "lossless-quick",
+        "rasterizePages": false,
+        "schemaVersion": 1
+      }
+    },
+    {
+      "elapsedMs": 812,
+      "fixture": "optimization-lab.pdf",
+      "inputBytes": 1757758,
+      "output": "optimization-lab-lossless-thorough.pdf",
+      "outputBytes": 1516082,
+      "settings": {
+        "arguments": [
+          "--object-streams=generate",
+          "--stream-data=compress",
+          "--remove-unreferenced-resources=no",
+          "--recompress-flate",
+          "--compression-level=9"
+        ],
+        "changedImageObjects": 0,
+        "downsample": false,
+        "engine": "qpdf 12.4.1",
+        "jpegQuality": null,
+        "losslessStructural": true,
+        "preset": "lossless-thorough",
+        "rasterizePages": false,
+        "schemaVersion": 1
+      }
+    },
+    {
+      "elapsedMs": 767,
+      "fixture": "optimization-lab.pdf",
+      "inputBytes": 1757758,
+      "output": "optimization-lab-images-high.pdf",
+      "outputBytes": 1208470,
+      "settings": {
+        "arguments": [
+          "--object-streams=generate",
+          "--stream-data=compress",
+          "--remove-unreferenced-resources=no",
+          "--recompress-flate",
+          "--compression-level=9",
+          "--optimize-images",
+          "--jpeg-quality=90",
+          "--keep-inline-images",
+          "--oi-min-width=128",
+          "--oi-min-height=128",
+          "--oi-min-area=16384"
+        ],
+        "changedImageObjects": 4,
+        "downsample": false,
+        "engine": "qpdf 12.4.1",
+        "jpegQuality": 90,
+        "losslessStructural": false,
+        "preset": "images-high",
+        "rasterizePages": false,
+        "schemaVersion": 1
+      }
+    },
+    {
+      "elapsedMs": 651,
+      "fixture": "optimization-lab.pdf",
+      "inputBytes": 1757758,
+      "output": "optimization-lab-images-balanced.pdf",
+      "outputBytes": 608616,
+      "settings": {
+        "arguments": [
+          "--object-streams=generate",
+          "--stream-data=compress",
+          "--remove-unreferenced-resources=no",
+          "--recompress-flate",
+          "--compression-level=9",
+          "--optimize-images",
+          "--jpeg-quality=75",
+          "--keep-inline-images",
+          "--oi-min-width=128",
+          "--oi-min-height=128",
+          "--oi-min-area=16384"
+        ],
+        "changedImageObjects": 4,
+        "downsample": false,
+        "engine": "qpdf 12.4.1",
+        "jpegQuality": 75,
+        "losslessStructural": false,
+        "preset": "images-balanced",
+        "rasterizePages": false,
+        "schemaVersion": 1
+      }
+    },
+    {
+      "elapsedMs": 598,
+      "fixture": "optimization-lab.pdf",
+      "inputBytes": 1757758,
+      "output": "optimization-lab-images-small.pdf",
+      "outputBytes": 314723,
+      "settings": {
+        "arguments": [
+          "--object-streams=generate",
+          "--stream-data=compress",
+          "--remove-unreferenced-resources=no",
+          "--recompress-flate",
+          "--compression-level=9",
+          "--optimize-images",
+          "--jpeg-quality=50",
+          "--keep-inline-images",
+          "--oi-min-width=128",
+          "--oi-min-height=128",
+          "--oi-min-area=16384"
+        ],
+        "changedImageObjects": 4,
+        "downsample": false,
+        "engine": "qpdf 12.4.1",
+        "jpegQuality": 50,
+        "losslessStructural": false,
+        "preset": "images-small",
+        "rasterizePages": false,
+        "schemaVersion": 1
+      }
+    },
+    {
+      "elapsedMs": 476,
+      "fixture": "optimization-gray.pdf",
+      "inputBytes": 735756,
+      "output": "optimization-gray-lossless-quick.pdf",
+      "outputBytes": 588489,
+      "settings": {
+        "arguments": [
+          "--object-streams=generate",
+          "--stream-data=compress",
+          "--remove-unreferenced-resources=no",
+          "--compression-level=6"
+        ],
+        "changedImageObjects": 0,
+        "downsample": false,
+        "engine": "qpdf 12.4.1",
+        "jpegQuality": null,
+        "losslessStructural": true,
+        "preset": "lossless-quick",
+        "rasterizePages": false,
+        "schemaVersion": 1
+      }
+    },
+    {
+      "elapsedMs": 466,
+      "fixture": "optimization-gray.pdf",
+      "inputBytes": 735756,
+      "output": "optimization-gray-lossless-thorough.pdf",
+      "outputBytes": 588489,
+      "settings": {
+        "arguments": [
+          "--object-streams=generate",
+          "--stream-data=compress",
+          "--remove-unreferenced-resources=no",
+          "--recompress-flate",
+          "--compression-level=9"
+        ],
+        "changedImageObjects": 0,
+        "downsample": false,
+        "engine": "qpdf 12.4.1",
+        "jpegQuality": null,
+        "losslessStructural": true,
+        "preset": "lossless-thorough",
+        "rasterizePages": false,
+        "schemaVersion": 1
+      }
+    },
+    {
+      "elapsedMs": 422,
+      "fixture": "optimization-gray.pdf",
+      "inputBytes": 735756,
+      "output": "optimization-gray-images-high.pdf",
+      "outputBytes": 295983,
+      "settings": {
+        "arguments": [
+          "--object-streams=generate",
+          "--stream-data=compress",
+          "--remove-unreferenced-resources=no",
+          "--recompress-flate",
+          "--compression-level=9",
+          "--optimize-images",
+          "--jpeg-quality=90",
+          "--keep-inline-images",
+          "--oi-min-width=128",
+          "--oi-min-height=128",
+          "--oi-min-area=16384"
+        ],
+        "changedImageObjects": 1,
+        "downsample": false,
+        "engine": "qpdf 12.4.1",
+        "jpegQuality": 90,
+        "losslessStructural": false,
+        "preset": "images-high",
+        "rasterizePages": false,
+        "schemaVersion": 1
+      }
+    },
+    {
+      "elapsedMs": 413,
+      "fixture": "optimization-gray.pdf",
+      "inputBytes": 735756,
+      "output": "optimization-gray-images-balanced.pdf",
+      "outputBytes": 147858,
+      "settings": {
+        "arguments": [
+          "--object-streams=generate",
+          "--stream-data=compress",
+          "--remove-unreferenced-resources=no",
+          "--recompress-flate",
+          "--compression-level=9",
+          "--optimize-images",
+          "--jpeg-quality=75",
+          "--keep-inline-images",
+          "--oi-min-width=128",
+          "--oi-min-height=128",
+          "--oi-min-area=16384"
+        ],
+        "changedImageObjects": 1,
+        "downsample": false,
+        "engine": "qpdf 12.4.1",
+        "jpegQuality": 75,
+        "losslessStructural": false,
+        "preset": "images-balanced",
+        "rasterizePages": false,
+        "schemaVersion": 1
+      }
+    },
+    {
+      "elapsedMs": 392,
+      "fixture": "optimization-gray.pdf",
+      "inputBytes": 735756,
+      "output": "optimization-gray-images-small.pdf",
+      "outputBytes": 74900,
+      "settings": {
+        "arguments": [
+          "--object-streams=generate",
+          "--stream-data=compress",
+          "--remove-unreferenced-resources=no",
+          "--recompress-flate",
+          "--compression-level=9",
+          "--optimize-images",
+          "--jpeg-quality=50",
+          "--keep-inline-images",
+          "--oi-min-width=128",
+          "--oi-min-height=128",
+          "--oi-min-area=16384"
+        ],
+        "changedImageObjects": 1,
+        "downsample": false,
+        "engine": "qpdf 12.4.1",
+        "jpegQuality": 50,
+        "losslessStructural": false,
+        "preset": "images-small",
+        "rasterizePages": false,
+        "schemaVersion": 1
+      }
+    },
+    {
+      "elapsedMs": 251,
+      "fixture": "blank.pdf",
+      "inputBytes": 431,
+      "output": "blank-lossless-quick.pdf",
+      "outputBytes": 563,
+      "settings": {
+        "arguments": [
+          "--object-streams=generate",
+          "--stream-data=compress",
+          "--remove-unreferenced-resources=no",
+          "--compression-level=6"
+        ],
+        "changedImageObjects": 0,
+        "downsample": false,
+        "engine": "qpdf 12.4.1",
+        "jpegQuality": null,
+        "losslessStructural": true,
+        "preset": "lossless-quick",
+        "rasterizePages": false,
+        "schemaVersion": 1
+      }
+    },
+    {
+      "elapsedMs": 265,
+      "fixture": "blank.pdf",
+      "inputBytes": 431,
+      "output": "blank-lossless-thorough.pdf",
+      "outputBytes": 563,
+      "settings": {
+        "arguments": [
+          "--object-streams=generate",
+          "--stream-data=compress",
+          "--remove-unreferenced-resources=no",
+          "--recompress-flate",
+          "--compression-level=9"
+        ],
+        "changedImageObjects": 0,
+        "downsample": false,
+        "engine": "qpdf 12.4.1",
+        "jpegQuality": null,
+        "losslessStructural": true,
+        "preset": "lossless-thorough",
+        "rasterizePages": false,
+        "schemaVersion": 1
+      }
+    },
+    {
+      "elapsedMs": 275,
+      "fixture": "blank.pdf",
+      "inputBytes": 431,
+      "output": "blank-images-high.pdf",
+      "outputBytes": 563,
+      "settings": {
+        "arguments": [
+          "--object-streams=generate",
+          "--stream-data=compress",
+          "--remove-unreferenced-resources=no",
+          "--recompress-flate",
+          "--compression-level=9",
+          "--optimize-images",
+          "--jpeg-quality=90",
+          "--keep-inline-images",
+          "--oi-min-width=128",
+          "--oi-min-height=128",
+          "--oi-min-area=16384"
+        ],
+        "changedImageObjects": 0,
+        "downsample": false,
+        "engine": "qpdf 12.4.1",
+        "jpegQuality": 90,
+        "losslessStructural": false,
+        "preset": "images-high",
+        "rasterizePages": false,
+        "schemaVersion": 1
+      }
+    },
+    {
+      "elapsedMs": 253,
+      "fixture": "blank.pdf",
+      "inputBytes": 431,
+      "output": "blank-images-balanced.pdf",
+      "outputBytes": 563,
+      "settings": {
+        "arguments": [
+          "--object-streams=generate",
+          "--stream-data=compress",
+          "--remove-unreferenced-resources=no",
+          "--recompress-flate",
+          "--compression-level=9",
+          "--optimize-images",
+          "--jpeg-quality=75",
+          "--keep-inline-images",
+          "--oi-min-width=128",
+          "--oi-min-height=128",
+          "--oi-min-area=16384"
+        ],
+        "changedImageObjects": 0,
+        "downsample": false,
+        "engine": "qpdf 12.4.1",
+        "jpegQuality": 75,
+        "losslessStructural": false,
+        "preset": "images-balanced",
+        "rasterizePages": false,
+        "schemaVersion": 1
+      }
+    },
+    {
+      "elapsedMs": 305,
+      "fixture": "blank.pdf",
+      "inputBytes": 431,
+      "output": "blank-images-small.pdf",
+      "outputBytes": 563,
+      "settings": {
+        "arguments": [
+          "--object-streams=generate",
+          "--stream-data=compress",
+          "--remove-unreferenced-resources=no",
+          "--recompress-flate",
+          "--compression-level=9",
+          "--optimize-images",
+          "--jpeg-quality=50",
+          "--keep-inline-images",
+          "--oi-min-width=128",
+          "--oi-min-height=128",
+          "--oi-min-area=16384"
+        ],
+        "changedImageObjects": 0,
+        "downsample": false,
+        "engine": "qpdf 12.4.1",
+        "jpegQuality": 50,
+        "losslessStructural": false,
+        "preset": "images-small",
+        "rasterizePages": false,
+        "schemaVersion": 1
+      }
+    }
+  ],
+  "imageComparisons": [
+    {
+      "output": "optimization-lab-lossless-quick.pdf",
+      "page": 1,
+      "image": 1,
+      "psnrDb": null,
+      "meanSquareError": 0.0
+    },
+    {
+      "output": "optimization-lab-lossless-quick.pdf",
+      "page": 1,
+      "image": 2,
+      "psnrDb": null,
+      "meanSquareError": 0.0
+    },
+    {
+      "output": "optimization-lab-lossless-quick.pdf",
+      "page": 2,
+      "image": 1,
+      "psnrDb": null,
+      "meanSquareError": 0.0
+    },
+    {
+      "output": "optimization-lab-lossless-quick.pdf",
+      "page": 2,
+      "image": 2,
+      "psnrDb": null,
+      "meanSquareError": 0.0
+    },
+    {
+      "output": "optimization-lab-lossless-thorough.pdf",
+      "page": 1,
+      "image": 1,
+      "psnrDb": null,
+      "meanSquareError": 0.0
+    },
+    {
+      "output": "optimization-lab-lossless-thorough.pdf",
+      "page": 1,
+      "image": 2,
+      "psnrDb": null,
+      "meanSquareError": 0.0
+    },
+    {
+      "output": "optimization-lab-lossless-thorough.pdf",
+      "page": 2,
+      "image": 1,
+      "psnrDb": null,
+      "meanSquareError": 0.0
+    },
+    {
+      "output": "optimization-lab-lossless-thorough.pdf",
+      "page": 2,
+      "image": 2,
+      "psnrDb": null,
+      "meanSquareError": 0.0
+    },
+    {
+      "output": "optimization-lab-images-high.pdf",
+      "page": 1,
+      "image": 1,
+      "psnrDb": 36.36981707252059,
+      "meanSquareError": 15.000255401234568
+    },
+    {
+      "output": "optimization-lab-images-high.pdf",
+      "page": 1,
+      "image": 2,
+      "psnrDb": 36.29210042002967,
+      "meanSquareError": 15.271099922839506
+    },
+    {
+      "output": "optimization-lab-images-high.pdf",
+      "page": 2,
+      "image": 1,
+      "psnrDb": 36.36981707252059,
+      "meanSquareError": 15.000255401234568
+    },
+    {
+      "output": "optimization-lab-images-high.pdf",
+      "page": 2,
+      "image": 2,
+      "psnrDb": 36.29210042002967,
+      "meanSquareError": 15.271099922839506
+    },
+    {
+      "output": "optimization-lab-images-balanced.pdf",
+      "page": 1,
+      "image": 1,
+      "psnrDb": 31.234452305233322,
+      "meanSquareError": 48.93675077160494
+    },
+    {
+      "output": "optimization-lab-images-balanced.pdf",
+      "page": 1,
+      "image": 2,
+      "psnrDb": 31.323412559895637,
+      "meanSquareError": 47.94453433641976
+    },
+    {
+      "output": "optimization-lab-images-balanced.pdf",
+      "page": 2,
+      "image": 1,
+      "psnrDb": 31.234452305233322,
+      "meanSquareError": 48.93675077160494
+    },
+    {
+      "output": "optimization-lab-images-balanced.pdf",
+      "page": 2,
+      "image": 2,
+      "psnrDb": 31.323412559895637,
+      "meanSquareError": 47.94453433641976
+    },
+    {
+      "output": "optimization-lab-images-small.pdf",
+      "page": 1,
+      "image": 1,
+      "psnrDb": 29.92854806011312,
+      "meanSquareError": 66.1036674382716
+    },
+    {
+      "output": "optimization-lab-images-small.pdf",
+      "page": 1,
+      "image": 2,
+      "psnrDb": 30.018790297113238,
+      "meanSquareError": 64.74426890432099
+    },
+    {
+      "output": "optimization-lab-images-small.pdf",
+      "page": 2,
+      "image": 1,
+      "psnrDb": 29.92854806011312,
+      "meanSquareError": 66.1036674382716
+    },
+    {
+      "output": "optimization-lab-images-small.pdf",
+      "page": 2,
+      "image": 2,
+      "psnrDb": 30.018790297113238,
+      "meanSquareError": 64.74426890432099
+    },
+    {
+      "output": "optimization-gray-lossless-quick.pdf",
+      "page": 1,
+      "image": 1,
+      "psnrDb": null,
+      "meanSquareError": 0.0
+    },
+    {
+      "output": "optimization-gray-lossless-thorough.pdf",
+      "page": 1,
+      "image": 1,
+      "psnrDb": null,
+      "meanSquareError": 0.0
+    },
+    {
+      "output": "optimization-gray-images-high.pdf",
+      "page": 1,
+      "image": 1,
+      "psnrDb": 36.44369863615981,
+      "meanSquareError": 14.74723148148148
+    },
+    {
+      "output": "optimization-gray-images-balanced.pdf",
+      "page": 1,
+      "image": 1,
+      "psnrDb": 31.40217973941158,
+      "meanSquareError": 47.082811342592585
+    },
+    {
+      "output": "optimization-gray-images-small.pdf",
+      "page": 1,
+      "image": 1,
+      "psnrDb": 30.112955145238992,
+      "meanSquareError": 63.3555763888889
+    }
+  ],
+  "scope": "Generated content only. Native Mac exports; independent pypdf, Pillow and Poppler. Not Windows execution.",
+  "status": "passed"
+}

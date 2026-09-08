@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "appVersion": "0.1.5",
+  "platform": "macOS arm64",
+  "administratorInstallationPerformed": false,
+  "nativeDmgMountTest": "Earlier attempt denied by host permissions; final image verified and extracted without mounting.",
+  "checks": [
+    {
+      "name": "Release app ad-hoc signature verifies",
+      "passed": true
+    },
+    {
+      "name": "App ZIP integrity",
+      "passed": true
+    },
+    {
+      "name": "pkg: archive/payload extraction passed",
+      "passed": true
+    },
+    {
+      "name": "pkg: Contents/Info.plist matches release app",
+      "passed": true
+    },
+    {
+      "name": "pkg: Contents/Resources/icon.icns matches release app",
+      "passed": true
+    },
+    {
+      "name": "pkg: Contents/Resources/THIRD-PARTY-NOTICES.zip matches release app",
+      "passed": true
+    },
+    {
+      "name": "pkg: Contents/_CodeSignature/CodeResources matches release app",
+      "passed": true
+    },
+    {
+      "name": "pkg: Contents/MacOS/qpdf matches release app",
+      "passed": true
+    },
+    {
+      "name": "pkg: Contents/MacOS/pdf-workbench matches release app",
+      "passed": true
+    },
+    {
+      "name": "pkg: extracted application signature verifies",
+      "passed": true
+    },
+    {
+      "name": "pkg: bundled qpdf runs on build Mac",
+      "passed": true
+    },
+    {
+      "name": "dmg: archive/payload extraction passed",
+      "passed": true
+    },
+    {
+      "name": "dmg: Contents/Info.plist matches release app",
+      "passed": true
+    },
+    {
+      "name": "dmg: Contents/Resources/icon.icns matches release app",
+      "passed": true
+    },
+    {
+      "name": "dmg: Contents/Resources/THIRD-PARTY-NOTICES.zip matches release app",
+      "passed": true
+    },
+    {
+      "name": "dmg: Contents/_CodeSignature/CodeResources matches release app",
+      "passed": true
+    },
+    {
+      "name": "dmg: Contents/MacOS/qpdf matches release app",
+      "passed": true
+    },
+    {
+      "name": "dmg: Contents/MacOS/pdf-workbench matches release app",
+      "passed": true
+    },
+    {
+      "name": "dmg: extracted application signature verifies",
+      "passed": true
+    },
+    {
+      "name": "dmg: bundled qpdf runs on build Mac",
+      "passed": true
+    }
+  ],
+  "files": {
+    "PDF-Workbench-0.1.5-macOS-arm64.zip": {
+      "bytes": 6954545,
+      "sha256": "b58c91d753b9919ae8b7150ebff6c965e85a5c4cfb22734e5b5398cc8eaddeea"
+    },
+    "PDF-Workbench-0.1.5-macOS-arm64.pkg": {
+      "bytes": 6958284,
+      "sha256": "4e82c36933cc0ae79c5bbaa273f576925de6cdda7f8e6dfc433374c975e16574"
+    },
+    "PDF-Workbench-0.1.5-macOS-arm64.dmg": {
+      "bytes": 7331611,
+      "sha256": "a1f6ce5c793082f45c39a20ab3d9aff30027f505e99b68663ede64da49e508b8"
+    }
+  }
+}

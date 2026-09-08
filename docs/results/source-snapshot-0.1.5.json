@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "appVersion": "0.1.5",
+  "status": "passed",
+  "freshNpmInstall": true,
+  "frontendTests": 57,
+  "fixtureGeneration": "passed, including optimization fixtures",
+  "formatting": "passed",
+  "frontendBuild": "passed",
+  "qpdf": "Existing verified 12.4.1 sidecar reused",
+  "nativeBuildInSnapshot": "Not repeated; native source tested and packaged in primary checkout",
+  "privateInputsUsed": false
+}

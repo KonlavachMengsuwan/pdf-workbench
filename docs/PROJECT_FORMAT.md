@@ -1,0 +1,17 @@
+# Project format, schema 1
+
+A project is UTF-8 JSON with `schemaVersion:1`, a name, source metadata, current page plans, history and redo snapshots. Unsupported schema versions stop with an explanation. There is no destructive migration in this release: projects always save to a new filename. Source changes or missing files stop project loading instead of silently substituting content.
+
+Sources have stable IDs, absolute paths, kind, byte length, SHA-256 and preflight feature inventory. PDF pages reference a stable source ID and a one-based source-page number; every workbench page also has its own UUID so duplicate pages remain distinguishable. Blank pages record explicit dimensions. Image-created PDFs retain original image paths/hashes, pixel-to-point settings and engine version as provenance. Image EXIF orientation is not applied; use the page rotation command if needed.
+
+Page plans record rotation in 90-degree increments, crop margins from the unrotated original MediaBox, and optional resize width/height/mode/anchor/margin. These settings describe the current composition, independent of thumbnail order. Undo and redo retain up to 100 snapshots, including their action labels. The source set includes sources needed by undo history. Invalid page IDs, references, settings, bounds or oversized projects are rejected.
+
+Original sources remain external and read-only; keep them available at their paths. On save, app-generated source PDFs are copied to `<workspace>/projects/assets/<sha256>.pdf`, and the saved project references that durable asset. The automatic local session snapshot references current sources and permits explicit Restore session after restart; it is not a substitute for a saved project and does not relocate missing originals. Temporary source retention supports unsaved recovery. To archive a project, keep its JSON, original sources and any referenced generated assets together, retaining paths or implementing a future relink feature.
+
+Each successful PDF/image/text export attempts a sibling `<filename>.recipe.json` receipt containing schema/app/engine versions, source hashes, operation settings, actual output hash and byte length, and validation messages. These receipts intentionally include local source paths and may contain private filenames; they are not automatic anonymized share reports. No receipt is sent off-device. No byte-identical output guarantee is made.
+
+## Optimization settings added in 0.1.5
+
+Schema 1 projects may include an optional `optimization` field: `{"schemaVersion":1,"preset":"lossless-thorough"}`. Accepted presets are `lossless-quick`, `lossless-thorough`, `images-high`, `images-balanced`, and `images-small`. Missing settings in older projects select Thorough lossless. Unknown settings versions or presets are rejected by both frontend and native project validation. This additive field does not alter page undo/redo snapshots. Ordinary copy exports never implicitly apply the preference.
+
+The receipt's top-level `optimization` is null for an ordinary export, or contains settings schema 1, preset, JPEG quality (null for lossless), exact qpdf arguments, engine version, `downsample:false`, `rasterizePages:false`, and `changedImageObjects`. These counts refer to output image objects; shared original images can become several objects. The output hash and actual byte length identify the result, not a promised compression ratio. Older receipts containing only `losslessStructural` remain historical records; no receipt migration or automatic replay is implemented.

@@ -1,0 +1,1627 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "checks": [
+    {
+      "name": "original fixture hash before tests: chart.png",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash before tests: chart.jpg",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash before tests: studio-sample.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash before tests: mixed-rotation-crop.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash before tests: bookmarks.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash before tests: links.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash before tests: forms.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash before tests: encrypted.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash before tests: tags.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash before tests: attachments.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash before tests: signature-field.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash before tests: nonzero-origin.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash before tests: large-50-pages.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash before tests: blank.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash before tests: malformed.pdf",
+      "passed": true
+    },
+    {
+      "name": "bookmark fixture contains real outline entries",
+      "passed": true
+    },
+    {
+      "name": "link fixture contains annotations",
+      "passed": true
+    },
+    {
+      "name": "form fixture contains interactive fields",
+      "passed": true
+    },
+    {
+      "name": "attachment fixture contains embedded files",
+      "passed": true
+    },
+    {
+      "name": "tag fixture contains structure root",
+      "passed": true
+    },
+    {
+      "name": "signature fixture contains signature field",
+      "passed": true
+    },
+    {
+      "name": "encrypted fixture is encrypted",
+      "passed": true
+    },
+    {
+      "name": "encrypted fixture opens with known test password",
+      "passed": true
+    },
+    {
+      "name": "mixed fixture has existing rotation",
+      "passed": true
+    },
+    {
+      "name": "mixed fixture has an existing crop",
+      "passed": true
+    },
+    {
+      "name": "rotated.pdf: expected page count",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "name": "rotated.pdf: page 1 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "rotated.pdf: page 1 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "rotated.pdf: page 1 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "rotated.pdf: page 2 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "rotated.pdf: page 2 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "rotated.pdf: page 2 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "rotated.pdf: page 3 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "rotated.pdf: page 3 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "rotated.pdf: page 3 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "rotated.pdf: page 4 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "rotated.pdf: page 4 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "rotated.pdf: page 4 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "cropped.pdf: expected page count",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "name": "cropped.pdf: page 1 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "cropped.pdf: page 1 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "cropped.pdf: page 1 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "cropped.pdf: page 2 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "cropped.pdf: page 2 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "cropped.pdf: page 2 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "cropped.pdf: page 3 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "cropped.pdf: page 3 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "cropped.pdf: page 3 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "cropped.pdf: page 4 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "cropped.pdf: page 4 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "cropped.pdf: page 4 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "fit-letter.pdf: expected page count",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "name": "fit-letter.pdf: page 1 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "fit-letter.pdf: page 1 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "fit-letter.pdf: page 1 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "fit-letter.pdf: page 2 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "fit-letter.pdf: page 2 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "fit-letter.pdf: page 2 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "fit-letter.pdf: page 3 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "fit-letter.pdf: page 3 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "fit-letter.pdf: page 3 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "fit-letter.pdf: page 4 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "fit-letter.pdf: page 4 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "fit-letter.pdf: page 4 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "stretch.pdf: expected page count",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "name": "stretch.pdf: page 1 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "stretch.pdf: page 1 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "stretch.pdf: page 1 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "stretch.pdf: page 2 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "stretch.pdf: page 2 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "stretch.pdf: page 2 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "stretch.pdf: page 3 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "stretch.pdf: page 3 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "stretch.pdf: page 3 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "stretch.pdf: page 4 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "stretch.pdf: page 4 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "stretch.pdf: page 4 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "bounds.pdf: expected page count",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "name": "bounds.pdf: page 1 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "bounds.pdf: page 1 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "bounds.pdf: page 1 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "bounds.pdf: page 2 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "bounds.pdf: page 2 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "bounds.pdf: page 2 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "bounds.pdf: page 3 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "bounds.pdf: page 3 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "bounds.pdf: page 3 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "bounds.pdf: page 4 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "bounds.pdf: page 4 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "bounds.pdf: page 4 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "rotation export is 90 degrees",
+      "passed": true
+    },
+    {
+      "name": "crop export second page rotation is 270 degrees",
+      "passed": true
+    },
+    {
+      "name": "crop preserves requested asymmetric margins",
+      "passed": true
+    },
+    {
+      "name": "crop retains selectable text outside visible CropBox (not redaction)",
+      "passed": true,
+      "hiddenText": [
+        "FIELD NOTES     /     PDF WORKBENCH"
+      ]
+    },
+    {
+      "name": "fit creates Letter paper",
+      "passed": true
+    },
+    {
+      "name": "stretch creates explicit requested paper",
+      "passed": true
+    },
+    {
+      "name": "bounds creates explicit requested paper",
+      "passed": true
+    },
+    {
+      "name": "stretch and paper-only resize produce different content operations",
+      "passed": true
+    },
+    {
+      "name": "blank pages preserve mixed paper choices",
+      "passed": true
+    },
+    {
+      "name": "blank pages contain no unexpected text or images",
+      "passed": true
+    },
+    {
+      "name": "image conversion creates two pages",
+      "passed": true
+    },
+    {
+      "name": "image conversion preserves PNG decoded samples",
+      "passed": true
+    },
+    {
+      "name": "png conversion preserves image dimensions as PDF points",
+      "passed": true
+    },
+    {
+      "name": "JPEG compressed data embedded byte-for-byte",
+      "passed": true
+    },
+    {
+      "name": "image conversion preserves JPG decoded samples",
+      "passed": true
+    },
+    {
+      "name": "jpg conversion preserves image dimensions as PDF points",
+      "passed": true
+    },
+    {
+      "name": "reordered.pdf: expected page count",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "name": "reordered.pdf: page 1 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "reordered.pdf: page 1 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "reordered.pdf: page 1 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "reordered.pdf: page 2 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "reordered.pdf: page 2 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "reordered.pdf: page 2 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "reordered.pdf: page 3 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "reordered.pdf: page 3 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "reordered.pdf: page 3 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "reordered.pdf: page 4 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "reordered.pdf: page 4 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "reordered.pdf: page 4 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "extracted.pdf: expected page count",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "name": "extracted.pdf: page 1 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "extracted.pdf: page 1 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "extracted.pdf: page 1 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "extracted.pdf: page 2 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "extracted.pdf: page 2 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "extracted.pdf: page 2 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "split-1.pdf: expected page count",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "name": "split-1.pdf: page 1 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "split-1.pdf: page 1 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "split-1.pdf: page 1 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "split-2.pdf: expected page count",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "name": "split-2.pdf: page 1 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "split-2.pdf: page 1 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "split-2.pdf: page 1 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "split-3.pdf: expected page count",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "name": "split-3.pdf: page 1 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "split-3.pdf: page 1 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "split-3.pdf: page 1 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "split-4.pdf: expected page count",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "name": "split-4.pdf: page 1 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "split-4.pdf: page 1 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "split-4.pdf: page 1 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimized.pdf: expected page count",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "name": "optimized.pdf: page 1 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "optimized.pdf: page 1 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "optimized.pdf: page 1 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimized.pdf: page 2 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "optimized.pdf: page 2 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "optimized.pdf: page 2 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimized.pdf: page 3 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "optimized.pdf: page 3 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "optimized.pdf: page 3 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimized.pdf: page 4 selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "optimized.pdf: page 4 font programs and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "optimized.pdf: page 4 decoded image pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "studio-sample.pdf: independent renderer produced every page",
+      "passed": true
+    },
+    {
+      "name": "studio-sample/page-1.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "studio-sample/page-2.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "studio-sample/page-3.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "studio-sample/page-4.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "rotated.pdf: independent renderer produced every page",
+      "passed": true
+    },
+    {
+      "name": "rotated/page-1.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "rotated/page-2.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "rotated/page-3.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "rotated/page-4.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "cropped.pdf: independent renderer produced every page",
+      "passed": true
+    },
+    {
+      "name": "cropped/page-1.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "cropped/page-2.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "cropped/page-3.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "cropped/page-4.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "fit-letter.pdf: independent renderer produced every page",
+      "passed": true
+    },
+    {
+      "name": "fit-letter/page-1.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "fit-letter/page-2.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "fit-letter/page-3.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "fit-letter/page-4.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "stretch.pdf: independent renderer produced every page",
+      "passed": true
+    },
+    {
+      "name": "stretch/page-1.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "stretch/page-2.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "stretch/page-3.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "stretch/page-4.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "bounds.pdf: independent renderer produced every page",
+      "passed": true
+    },
+    {
+      "name": "bounds/page-1.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "bounds/page-2.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "bounds/page-3.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "bounds/page-4.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "blank-mixed.pdf: independent renderer produced every page",
+      "passed": true
+    },
+    {
+      "name": "blank-mixed/page-1.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "blank-mixed/page-2.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "images.pdf: independent renderer produced every page",
+      "passed": true
+    },
+    {
+      "name": "images/page-1.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "images/page-2.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "reordered.pdf: independent renderer produced every page",
+      "passed": true
+    },
+    {
+      "name": "reordered/page-1.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "reordered/page-2.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "reordered/page-3.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "reordered/page-4.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "extracted.pdf: independent renderer produced every page",
+      "passed": true
+    },
+    {
+      "name": "extracted/page-1.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "extracted/page-2.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimized.pdf: independent renderer produced every page",
+      "passed": true
+    },
+    {
+      "name": "optimized/page-1.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimized/page-2.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimized/page-3.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimized/page-4.png: nonempty rendered dimensions",
+      "passed": true
+    },
+    {
+      "name": "optimization page 1: rendered dimensions match",
+      "passed": true
+    },
+    {
+      "name": "optimization page 1: exact independent rendered pixel equality",
+      "passed": true,
+      "maximumDifference": 0
+    },
+    {
+      "name": "optimization page 2: rendered dimensions match",
+      "passed": true
+    },
+    {
+      "name": "optimization page 2: exact independent rendered pixel equality",
+      "passed": true,
+      "maximumDifference": 0
+    },
+    {
+      "name": "optimization page 3: rendered dimensions match",
+      "passed": true
+    },
+    {
+      "name": "optimization page 3: exact independent rendered pixel equality",
+      "passed": true,
+      "maximumDifference": 0
+    },
+    {
+      "name": "optimization page 4: rendered dimensions match",
+      "passed": true
+    },
+    {
+      "name": "optimization page 4: exact independent rendered pixel equality",
+      "passed": true,
+      "maximumDifference": 0
+    },
+    {
+      "name": "reordered page 1: rendered dimensions match",
+      "passed": true
+    },
+    {
+      "name": "reordered page 1: exact independent rendered pixel equality",
+      "passed": true,
+      "maximumDifference": 0
+    },
+    {
+      "name": "reordered page 2: rendered dimensions match",
+      "passed": true
+    },
+    {
+      "name": "reordered page 2: exact independent rendered pixel equality",
+      "passed": true,
+      "maximumDifference": 0
+    },
+    {
+      "name": "reordered page 3: rendered dimensions match",
+      "passed": true
+    },
+    {
+      "name": "reordered page 3: exact independent rendered pixel equality",
+      "passed": true,
+      "maximumDifference": 0
+    },
+    {
+      "name": "reordered page 4: rendered dimensions match",
+      "passed": true
+    },
+    {
+      "name": "reordered page 4: exact independent rendered pixel equality",
+      "passed": true,
+      "maximumDifference": 0
+    },
+    {
+      "name": "independent renderer confirms stretch and paper-only resize are visually distinct",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash after tests: chart.png",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash after tests: chart.jpg",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash after tests: studio-sample.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash after tests: mixed-rotation-crop.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash after tests: bookmarks.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash after tests: links.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash after tests: forms.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash after tests: encrypted.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash after tests: tags.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash after tests: attachments.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash after tests: signature-field.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash after tests: nonzero-origin.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash after tests: large-50-pages.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash after tests: blank.pdf",
+      "passed": true
+    },
+    {
+      "name": "original fixture hash after tests: malformed.pdf",
+      "passed": true
+    }
+  ],
+  "renderComparisons": [
+    {
+      "name": "optimization page 1",
+      "maximumChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "left": "tmp/test-results/renders/studio-sample/page-1.png",
+      "right": "tmp/test-results/renders/optimized/page-1.png"
+    },
+    {
+      "name": "optimization page 2",
+      "maximumChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "left": "tmp/test-results/renders/studio-sample/page-2.png",
+      "right": "tmp/test-results/renders/optimized/page-2.png"
+    },
+    {
+      "name": "optimization page 3",
+      "maximumChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "left": "tmp/test-results/renders/studio-sample/page-3.png",
+      "right": "tmp/test-results/renders/optimized/page-3.png"
+    },
+    {
+      "name": "optimization page 4",
+      "maximumChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "left": "tmp/test-results/renders/studio-sample/page-4.png",
+      "right": "tmp/test-results/renders/optimized/page-4.png"
+    },
+    {
+      "name": "reordered page 1",
+      "maximumChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "left": "tmp/test-results/renders/studio-sample/page-3.png",
+      "right": "tmp/test-results/renders/reordered/page-1.png"
+    },
+    {
+      "name": "reordered page 2",
+      "maximumChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "left": "tmp/test-results/renders/studio-sample/page-1.png",
+      "right": "tmp/test-results/renders/reordered/page-2.png"
+    },
+    {
+      "name": "reordered page 3",
+      "maximumChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "left": "tmp/test-results/renders/studio-sample/page-1.png",
+      "right": "tmp/test-results/renders/reordered/page-3.png"
+    },
+    {
+      "name": "reordered page 4",
+      "maximumChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "left": "tmp/test-results/renders/studio-sample/page-4.png",
+      "right": "tmp/test-results/renders/reordered/page-4.png"
+    }
+  ],
+  "files": {
+    "rotated.pdf": {
+      "bytes": 59955,
+      "sha256": "9af9cb3e41b68c4e09882b8c5d2011297a966d04394fa65147d7da0c9a8e1433",
+      "pages": 4,
+      "mediaBoxes": [
+        [
+          0.0,
+          0.0,
+          595.28,
+          841.89
+        ],
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ],
+        [
+          0.0,
+          0.0,
+          480.0,
+          720.0
+        ]
+      ],
+      "cropBoxes": [
+        [
+          0.0,
+          0.0,
+          595.28,
+          841.89
+        ],
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ],
+        [
+          0.0,
+          0.0,
+          480.0,
+          720.0
+        ]
+      ],
+      "rotations": [
+        90,
+        0,
+        0,
+        0
+      ]
+    },
+    "cropped.pdf": {
+      "bytes": 59978,
+      "sha256": "006ae815c9e73d66ddf3ebbebab1773930f35238f4bc03d665aac4881dc6ea39",
+      "pages": 4,
+      "mediaBoxes": [
+        [
+          0.0,
+          0.0,
+          595.28,
+          841.89
+        ],
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ],
+        [
+          0.0,
+          0.0,
+          480.0,
+          720.0
+        ]
+      ],
+      "cropBoxes": [
+        [
+          22.0,
+          30.0,
+          549.28,
+          781.89
+        ],
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ],
+        [
+          0.0,
+          0.0,
+          480.0,
+          720.0
+        ]
+      ],
+      "rotations": [
+        0,
+        270,
+        0,
+        0
+      ]
+    },
+    "fit-letter.pdf": {
+      "bytes": 60855,
+      "sha256": "7acd1e0921aacb8c250cf1b9eb81611c2f4e31aa16ee2c9510e900bed64c4e5b",
+      "pages": 4,
+      "mediaBoxes": [
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ],
+        [
+          0.0,
+          0.0,
+          480.0,
+          720.0
+        ]
+      ],
+      "cropBoxes": [
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ],
+        [
+          0.0,
+          0.0,
+          480.0,
+          720.0
+        ]
+      ],
+      "rotations": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "stretch.pdf": {
+      "bytes": 60876,
+      "sha256": "77181c8e727f86c7d51c35abfd0a64ab481f7b1a1ffeb2332682b3ca1b2a0b6b",
+      "pages": 4,
+      "mediaBoxes": [
+        [
+          0.0,
+          0.0,
+          420.0,
+          600.0
+        ],
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ],
+        [
+          0.0,
+          0.0,
+          480.0,
+          720.0
+        ]
+      ],
+      "cropBoxes": [
+        [
+          0.0,
+          0.0,
+          420.0,
+          600.0
+        ],
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ],
+        [
+          0.0,
+          0.0,
+          480.0,
+          720.0
+        ]
+      ],
+      "rotations": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "bounds.pdf": {
+      "bytes": 59958,
+      "sha256": "1b3638f9664ee88615a3f208a40d40465bf3a2ed960baaf86373b55b0e1a4a70",
+      "pages": 4,
+      "mediaBoxes": [
+        [
+          0.0,
+          0.0,
+          420.0,
+          600.0
+        ],
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ],
+        [
+          0.0,
+          0.0,
+          480.0,
+          720.0
+        ]
+      ],
+      "cropBoxes": [
+        [
+          0.0,
+          0.0,
+          420.0,
+          600.0
+        ],
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ],
+        [
+          0.0,
+          0.0,
+          480.0,
+          720.0
+        ]
+      ],
+      "rotations": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "reordered.pdf": {
+      "bytes": 41113,
+      "sha256": "b86da3bae2fa40c8937e08aa66187caa3498358609931cfd2799bbf6dc63719b",
+      "pages": 4,
+      "mediaBoxes": [
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ],
+        [
+          0.0,
+          0.0,
+          595.28,
+          841.89
+        ],
+        [
+          0.0,
+          0.0,
+          595.28,
+          841.89
+        ],
+        [
+          0.0,
+          0.0,
+          480.0,
+          720.0
+        ]
+      ],
+      "cropBoxes": [
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ],
+        [
+          0.0,
+          0.0,
+          595.28,
+          841.89
+        ],
+        [
+          0.0,
+          0.0,
+          595.28,
+          841.89
+        ],
+        [
+          0.0,
+          0.0,
+          480.0,
+          720.0
+        ]
+      ],
+      "rotations": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "extracted.pdf": {
+      "bytes": 39908,
+      "sha256": "dae0ebe000b10e769a55c1029fdf5afcfde365d0c4da29cd5c9671dc66464915",
+      "pages": 2,
+      "mediaBoxes": [
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ]
+      ],
+      "cropBoxes": [
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ]
+      ],
+      "rotations": [
+        0,
+        0
+      ]
+    },
+    "split-1.pdf": {
+      "bytes": 39016,
+      "sha256": "c160c69a2aad0ab5e398bce88dffb3d8bb2ec7c9bf1d6b3fd98ea5f5f54373df",
+      "pages": 1,
+      "mediaBoxes": [
+        [
+          0.0,
+          0.0,
+          595.28,
+          841.89
+        ]
+      ],
+      "cropBoxes": [
+        [
+          0.0,
+          0.0,
+          595.28,
+          841.89
+        ]
+      ],
+      "rotations": [
+        0
+      ]
+    },
+    "split-2.pdf": {
+      "bytes": 39000,
+      "sha256": "0549ea357bd940605b7541b989000e5dc13739abee121b26dd26d4b6b12c96c6",
+      "pages": 1,
+      "mediaBoxes": [
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ]
+      ],
+      "cropBoxes": [
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ]
+      ],
+      "rotations": [
+        0
+      ]
+    },
+    "split-3.pdf": {
+      "bytes": 39003,
+      "sha256": "265139583caf55d60d5bb30cdf906e70d3c60d5fa7e4b7f0a3e200c833e749b2",
+      "pages": 1,
+      "mediaBoxes": [
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ]
+      ],
+      "cropBoxes": [
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ]
+      ],
+      "rotations": [
+        0
+      ]
+    },
+    "split-4.pdf": {
+      "bytes": 38997,
+      "sha256": "cc47acc3fb7019706ec783fec0e05fc5c589797f89fb9560006b6d8672646c6c",
+      "pages": 1,
+      "mediaBoxes": [
+        [
+          0.0,
+          0.0,
+          480.0,
+          720.0
+        ]
+      ],
+      "cropBoxes": [
+        [
+          0.0,
+          0.0,
+          480.0,
+          720.0
+        ]
+      ],
+      "rotations": [
+        0
+      ]
+    },
+    "optimized.pdf": {
+      "bytes": 38450,
+      "sha256": "fb57824e6e06cedcff7a17edb2c2792137529d634a559a5a9b18844c33f520bc",
+      "pages": 4,
+      "mediaBoxes": [
+        [
+          0.0,
+          0.0,
+          595.28,
+          841.89
+        ],
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ],
+        [
+          0.0,
+          0.0,
+          480.0,
+          720.0
+        ]
+      ],
+      "cropBoxes": [
+        [
+          0.0,
+          0.0,
+          595.28,
+          841.89
+        ],
+        [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          0.0,
+          760.0,
+          520.0
+        ],
+        [
+          0.0,
+          0.0,
+          480.0,
+          720.0
+        ]
+      ],
+      "rotations": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "engines": {
+    "python": "3.12.14",
+    "pypdf": "6.10.0",
+    "pillow": "12.3.0",
+    "qpdf": "qpdf-aarch64-apple-darwin version 12.4.1",
+    "pdftoppm": "pdftoppm version 26.05.0"
+  },
+  "optimization": {
+    "beforeBytes": 62371,
+    "afterBytes": 38450,
+    "changeBytes": -23921
+  },
+  "renderedPageCount": 38,
+  "limitations": [
+    "This controlled fixture suite does not establish complete fidelity for arbitrary PDFs.",
+    "Signed, tagged, form, bookmark and attachment fixtures test detection/protection elsewhere; they are not modified here.",
+    "Windows has not been run."
+  ],
+  "elapsedSeconds": 2.221,
+  "passedChecks": 236
+}

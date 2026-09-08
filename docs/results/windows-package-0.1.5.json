@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "appVersion": "0.1.5",
+  "buildHost": "macOS arm64",
+  "runtimeTestedOnWindows": false,
+  "installerBytes": 7688449,
+  "installerSha256": "83587a12048abaf63538642096c0c14f1542823c9f51c9062ff1a727c383ac23",
+  "checks": [
+    {
+      "name": "NSIS archive integrity test passed",
+      "passed": true
+    },
+    {
+      "name": "Installer does not contain AppleDouble metadata files",
+      "passed": true
+    },
+    {
+      "name": "Third-party license/source archive is included",
+      "passed": true
+    },
+    {
+      "name": "Third-party notice archive integrity",
+      "passed": true
+    },
+    {
+      "name": "Microsoft WebView2 SDK license is included",
+      "passed": true
+    },
+    {
+      "name": "NSIS license texts are included",
+      "passed": true
+    },
+    {
+      "name": "pdf-workbench.exe: present",
+      "passed": true
+    },
+    {
+      "name": "pdf-workbench.exe: x64 PE architecture",
+      "passed": true
+    },
+    {
+      "name": "pdf-workbench.exe: imported libraries are bundled or Windows system libraries ()",
+      "passed": true
+    },
+    {
+      "name": "qpdf.exe: present",
+      "passed": true
+    },
+    {
+      "name": "qpdf.exe: x64 PE architecture",
+      "passed": true
+    },
+    {
+      "name": "qpdf.exe: imported libraries are bundled or Windows system libraries ()",
+      "passed": true
+    },
+    {
+      "name": "qpdf.exe: matches verified official qpdf distribution",
+      "passed": true
+    },
+    {
+      "name": "concrt140.dll: present",
+      "passed": true
+    },
+    {
+      "name": "concrt140.dll: x64 PE architecture",
+      "passed": true
+    },
+    {
+      "name": "concrt140.dll: imported libraries are bundled or Windows system libraries ()",
+      "passed": true
+    },
+    {
+      "name": "concrt140.dll: matches verified official qpdf distribution",
+      "passed": true
+    },
+    {
+      "name": "msvcp140.dll: present",
+      "passed": true
+    },
+    {
+      "name": "msvcp140.dll: x64 PE architecture",
+      "passed": true
+    },
+    {
+      "name": "msvcp140.dll: imported libraries are bundled or Windows system libraries ()",
+      "passed": true
+    },
+    {
+      "name": "msvcp140.dll: matches verified official qpdf distribution",
+      "passed": true
+    },
+    {
+      "name": "msvcp140_1.dll: present",
+      "passed": true
+    },
+    {
+      "name": "msvcp140_1.dll: x64 PE architecture",
+      "passed": true
+    },
+    {
+      "name": "msvcp140_1.dll: imported libraries are bundled or Windows system libraries ()",
+      "passed": true
+    },
+    {
+      "name": "msvcp140_1.dll: matches verified official qpdf distribution",
+      "passed": true
+    },
+    {
+      "name": "msvcp140_2.dll: present",
+      "passed": true
+    },
+    {
+      "name": "msvcp140_2.dll: x64 PE architecture",
+      "passed": true
+    },
+    {
+      "name": "msvcp140_2.dll: imported libraries are bundled or Windows system libraries ()",
+      "passed": true
+    },
+    {
+      "name": "msvcp140_2.dll: matches verified official qpdf distribution",
+      "passed": true
+    },
+    {
+      "name": "msvcp140_atomic_wait.dll: present",
+      "passed": true
+    },
+    {
+      "name": "msvcp140_atomic_wait.dll: x64 PE architecture",
+      "passed": true
+    },
+    {
+      "name": "msvcp140_atomic_wait.dll: imported libraries are bundled or Windows system libraries ()",
+      "passed": true
+    },
+    {
+      "name": "msvcp140_atomic_wait.dll: matches verified official qpdf distribution",
+      "passed": true
+    },
+    {
+      "name": "msvcp140_codecvt_ids.dll: present",
+      "passed": true
+    },
+    {
+      "name": "msvcp140_codecvt_ids.dll: x64 PE architecture",
+      "passed": true
+    },
+    {
+      "name": "msvcp140_codecvt_ids.dll: imported libraries are bundled or Windows system libraries ()",
+      "passed": true
+    },
+    {
+      "name": "msvcp140_codecvt_ids.dll: matches verified official qpdf distribution",
+      "passed": true
+    },
+    {
+      "name": "qpdf30.dll: present",
+      "passed": true
+    },
+    {
+      "name": "qpdf30.dll: x64 PE architecture",
+      "passed": true
+    },
+    {
+      "name": "qpdf30.dll: imported libraries are bundled or Windows system libraries ()",
+      "passed": true
+    },
+    {
+      "name": "qpdf30.dll: matches verified official qpdf distribution",
+      "passed": true
+    },
+    {
+      "name": "vcruntime140.dll: present",
+      "passed": true
+    },
+    {
+      "name": "vcruntime140.dll: x64 PE architecture",
+      "passed": true
+    },
+    {
+      "name": "vcruntime140.dll: imported libraries are bundled or Windows system libraries ()",
+      "passed": true
+    },
+    {
+      "name": "vcruntime140.dll: matches verified official qpdf distribution",
+      "passed": true
+    },
+    {
+      "name": "vcruntime140_1.dll: present",
+      "passed": true
+    },
+    {
+      "name": "vcruntime140_1.dll: x64 PE architecture",
+      "passed": true
+    },
+    {
+      "name": "vcruntime140_1.dll: imported libraries are bundled or Windows system libraries ()",
+      "passed": true
+    },
+    {
+      "name": "vcruntime140_1.dll: matches verified official qpdf distribution",
+      "passed": true
+    }
+  ],
+  "imports": {
+    "pdf-workbench.exe": [
+      "advapi32.dll",
+      "api-ms-win-core-synch-l1-2-0.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "bcryptprimitives.dll",
+      "comctl32.dll",
+      "dwmapi.dll",
+      "gdi32.dll",
+      "kernel32.dll",
+      "ntdll.dll",
+      "ole32.dll",
+      "oleaut32.dll",
+      "shell32.dll",
+      "shlwapi.dll",
+      "user32.dll"
+    ],
+    "qpdf.exe": [
+      "KERNEL32.dll",
+      "MSVCP140.dll",
+      "VCRUNTIME140.dll",
+      "VCRUNTIME140_1.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "qpdf30.dll"
+    ],
+    "concrt140.dll": [
+      "KERNEL32.dll",
+      "MSVCP140.dll",
+      "VCRUNTIME140.dll",
+      "VCRUNTIME140_1.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll"
+    ],
+    "msvcp140.dll": [
+      "KERNEL32.dll",
+      "VCRUNTIME140.dll",
+      "VCRUNTIME140_1.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll",
+      "api-ms-win-crt-environment-l1-1-0.dll",
+      "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "api-ms-win-crt-time-l1-1-0.dll",
+      "api-ms-win-crt-utility-l1-1-0.dll"
+    ],
+    "msvcp140_1.dll": [
+      "KERNEL32.dll",
+      "MSVCP140.dll",
+      "VCRUNTIME140.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll"
+    ],
+    "msvcp140_2.dll": [
+      "KERNEL32.dll",
+      "MSVCP140.dll",
+      "VCRUNTIME140.dll",
+      "VCRUNTIME140_1.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll"
+    ],
+    "msvcp140_atomic_wait.dll": [
+      "ADVAPI32.dll",
+      "KERNEL32.dll",
+      "MSVCP140.dll",
+      "VCRUNTIME140.dll",
+      "VCRUNTIME140_1.dll",
+      "api-ms-win-core-synch-l1-2-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll"
+    ],
+    "msvcp140_codecvt_ids.dll": [
+      "KERNEL32.dll",
+      "VCRUNTIME140.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll"
+    ],
+    "qpdf30.dll": [
+      "ADVAPI32.dll",
+      "CRYPT32.dll",
+      "KERNEL32.dll",
+      "MSVCP140.dll",
+      "USER32.dll",
+      "VCRUNTIME140.dll",
+      "VCRUNTIME140_1.dll",
+      "WS2_32.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll",
+      "api-ms-win-crt-environment-l1-1-0.dll",
+      "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "api-ms-win-crt-time-l1-1-0.dll",
+      "api-ms-win-crt-utility-l1-1-0.dll"
+    ],
+    "vcruntime140.dll": [
+      "KERNEL32.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll"
+    ],
+    "vcruntime140_1.dll": [
+      "KERNEL32.dll",
+      "VCRUNTIME140.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll"
+    ]
+  }
+}

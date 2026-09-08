@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "appVersion": "0.1.5",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "Export was produced by this release",
+      "passed": true
+    },
+    {
+      "name": "Balanced settings recorded",
+      "passed": true
+    },
+    {
+      "name": "Four actual output image objects changed",
+      "passed": true
+    },
+    {
+      "name": "Original input hash remains unchanged",
+      "passed": true
+    },
+    {
+      "name": "Export hash matches receipt",
+      "passed": true
+    },
+    {
+      "name": "Receipt byte counts match actual files",
+      "passed": true
+    },
+    {
+      "name": "UI output agrees with tested native Balanced size",
+      "passed": true
+    },
+    {
+      "name": "qpdf output structure and stream checks pass",
+      "passed": true
+    },
+    {
+      "name": "Both pages retained",
+      "passed": true
+    },
+    {
+      "name": "Document metadata retained",
+      "passed": true
+    },
+    {
+      "name": "Bookmarks point at the expected pages",
+      "passed": true
+    },
+    {
+      "name": "Page 1: selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "Page 1: fonts and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "Page 1: vector/text content operators retained",
+      "passed": true
+    },
+    {
+      "name": "Page 1: rotation undo and page geometry retained",
+      "passed": true
+    },
+    {
+      "name": "Page 1: JPEG pixels match independent native fixture result",
+      "passed": true
+    },
+    {
+      "name": "Page 2: selectable text retained",
+      "passed": true
+    },
+    {
+      "name": "Page 2: fonts and Unicode maps retained",
+      "passed": true
+    },
+    {
+      "name": "Page 2: vector/text content operators retained",
+      "passed": true
+    },
+    {
+      "name": "Page 2: rotation undo and page geometry retained",
+      "passed": true
+    },
+    {
+      "name": "Page 2: JPEG pixels match independent native fixture result",
+      "passed": true
+    },
+    {
+      "name": "Independent Poppler renderer reopened both pages",
+      "passed": true
+    },
+    {
+      "name": "Page 1: UI export renders exactly like the verified Balanced test output",
+      "passed": true
+    },
+    {
+      "name": "Page 2: UI export renders exactly like the verified Balanced test output",
+      "passed": true
+    }
+  ],
+  "workflow": "Final packaged Mac UI: open generated PDF, rotate and undo, Balanced optimize, export, reopen. No private paper used.",
+  "inputBytes": 1757758,
+  "outputBytes": 608616,
+  "outputSha256": "046a82839cb8cb3f51e03841e8560ae7a27bf35cd631afee56f3de965ebd5ef9"
+}
